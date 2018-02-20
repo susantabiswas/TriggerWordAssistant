@@ -18,7 +18,7 @@ def take_input():
                     input=True,
                     frames_per_buffer=CHUNK)
 
-    print("* Started Listening")
+    print("\n\n\n******** Started Listening.............")
 
     frames = []
 
@@ -26,7 +26,7 @@ def take_input():
         data = stream.read(CHUNK)
         frames.append(data)
 
-    print("* Done Listening")
+    print("******** Done Listening")
 
     stream.stop_stream()
     stream.close()
