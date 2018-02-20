@@ -10,5 +10,8 @@ There are 2 versions for this application:
 
 
 
-2. Python file incase you want to directly see what is happening.<br>
-![Alt Text](images/2.gif)
+2. Python file incase you want to directly see what is happening.
+Here is a gif showing this in action
+<br>
+![Alt Text](images/2.gif )
+
