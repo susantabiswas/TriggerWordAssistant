@@ -1,5 +1,7 @@
 # Trigger Word Assistant
-An voice based assistant application which executes the assigned command on detecting the **trigger word** from the user voice. Here the trigger word used is **"activate"**. The user needs to speak through the microphone , then the audio data is processed and fed to the model. The model after detecting the trigger word does the action specified in the code, like I coded it to open Chrome everytime it detects that the user has spoken **activate**.
+A voice based assistant application which executes the assigned command on detecting the **trigger word** from the user voice. A trigger word is a word to which the model gets triggered once it detects it. Like for example **"Hey Cortana"** or **"Ok Google"**. Here the trigger word used is **"activate"**. 
+
+The user needs to speak through the microphone , then the audio data is processed and fed to the model. The model after detecting the trigger word does the action specified in the code, like I coded it to open Chrome everytime it detects that the user has spoken **activate**.
 
 The Model used for detecting trigger word uses a **deep Recurrent Neural Network** with **Gated Recurrent Units (GRU)**.
 The model is build using Keras.
