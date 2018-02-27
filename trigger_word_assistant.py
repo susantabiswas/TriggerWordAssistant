@@ -144,7 +144,7 @@ def action_on_activate(chime_file, filename, predictions, threshold):
             audio_clip = audio_clip.overlay(chime, position = ((i / Ty) * audio_clip.duration_seconds)*1000)
             # Step 6: Reset consecutive output steps to 0
             consecutive_timesteps = 0
-            print('Deteced Trigger Word\n')
+            print('Detected Trigger Word\n')
             # run the command that you want
             subprocess.call(r'C:\Program Files (x86)\Google\Chrome\Application\Chrome.exe')
         
