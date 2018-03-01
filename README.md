@@ -26,3 +26,9 @@ Detailed walkthrough of the code including option to listen to the actual output
 ![Alternate image text](images/1.png)<br><br>
 
 
+
+
+
+#### Credits: 
+This project is based on the assignment from Sequence Models Specialization by Deeplearning.ai on Coursera.
+https://www.coursera.org/learn/nlp-sequence-models/home/welcome
