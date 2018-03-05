@@ -18,7 +18,7 @@ Just run the script and wait for the message **"Started Listening"** , then spea
 <br>Inside the **output folder** the spectogram of the processed audio is stored.
 Here is a gif showing this in action<br><br>
 ![Alt Text](images/2.gif)
-
+Note: The script continues to run till the desired application opened by the command after trigger detection is not closed.
 
 
 ### 2. Jupyter notebook explaining everything.
